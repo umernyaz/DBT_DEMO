@@ -14,4 +14,4 @@ WHERE STARTED_AT != 'started_at'
 )
 
 SELECT * 
-FROM CTE;
+FROM CTE
