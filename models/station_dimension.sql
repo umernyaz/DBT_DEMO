@@ -8,7 +8,7 @@ WITH BIKE AS (
     start_lng
 
     FROM
-    {{ source('DEMO', 'BIKE') }}
+    {{ ref('stage_bike') }}
     WHERE RIDE_ID != 'ride_id'
 
 )
